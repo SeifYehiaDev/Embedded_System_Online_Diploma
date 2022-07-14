@@ -1,5 +1,5 @@
 /*
- * Lab_1.2.c
+ * Lab_1.1.c
  *
  * Created on : 15/7/2022
  * Author : Seif Yehia Esmail Abdel Aal
