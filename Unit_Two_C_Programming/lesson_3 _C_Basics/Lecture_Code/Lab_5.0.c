@@ -32,6 +32,7 @@ void main() {
         printf("\nAverage students degree is : %f\n", average);
     } else
         printf("Invalid value , number of student should be positive number\n");
+}
 
     /*                                                 _Output invalid value_
      *Enter the number of students >> -5
@@ -58,4 +59,4 @@ void main() {
      *
      *Average students degree is : 15.000000
      * */
-}
+

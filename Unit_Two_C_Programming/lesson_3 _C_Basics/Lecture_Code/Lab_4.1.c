@@ -19,6 +19,6 @@ void main() {
         index++;
     }
     printf("Summation of values between (1 and 99) is : %d\n", sumOfValue);
+}
     //                                                 _Output_
     // Summation of values between (1 and 99) is : 4950
-}

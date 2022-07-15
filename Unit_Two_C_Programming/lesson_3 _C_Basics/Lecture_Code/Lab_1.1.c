@@ -46,56 +46,56 @@ void main() {
         }
     } else // if the radius is negative number (-ve)
         printf("The radius enter : %f\nSorry this radius is negative number please try again.\n", radiusFromUser);
-    //                                                 _Normal output Case one_
-    // in case one ---------------> to calculate area.
-    /*Please enter circle radius >>
-     *3
-     *Please select one option
-     *a || A ===> to print the area.
-     *c || C ===> to print the circumference.
-     *Enter your choice >>
-     *A
-     *Loading............
-     *The radius is 3.000000
-     *Your choice A
-     *The area is 28.274334
-     * */
-
-
-    //                                                 _Normal output Case two_
-    // in case two ---------------> to calculate circumference.
-    /*Please enter circle radius >>
-     *3
-     *Please select one option
-     *a || A ===> to print the area
-     *c || C ===> to print the circumference
-     *Enter your choice >>
-     *c
-     *Loading............
-     *The radius is 3.000000
-     *Your choice c
-     *The circumference is 18.849556
-     * */
-
-
-    //                                                 _invalid choice_
-    /*Please enter circle radius >>
-     *3
-     *Please select one option
-     *a || A ===> to print the area
-     *c || C ===> to print the circumference
-     *Enter your choice >>
-     *S
-     *Loading............
-     *The radius is 3.000000
-     *Your choice S
-     *Your choice isn't available in menu.
-     * */
-
-    //                                                 _invalid radius_
-    /*Please enter circle radius >>
-     *-3
-     *The radius enter : -3.000000
-     *Sorry this radius is negative number please try again.
-     * */
 }
+//                                                 _Normal output Case one_
+// in case one ---------------> to calculate area.
+/*Please enter circle radius >>
+ *3
+ *Please select one option
+ *a || A ===> to print the area.
+ *c || C ===> to print the circumference.
+ *Enter your choice >>
+ *A
+ *Loading............
+ *The radius is 3.000000
+ *Your choice A
+ *The area is 28.274334
+ * */
+
+
+//                                                 _Normal output Case two_
+// in case two ---------------> to calculate circumference.
+/*Please enter circle radius >>
+ *3
+ *Please select one option
+ *a || A ===> to print the area
+ *c || C ===> to print the circumference
+ *Enter your choice >>
+ *c
+ *Loading............
+ *The radius is 3.000000
+ *Your choice c
+ *The circumference is 18.849556
+ * */
+
+
+//                                                 _invalid choice_
+/*Please enter circle radius >>
+ *3
+ *Please select one option
+ *a || A ===> to print the area
+ *c || C ===> to print the circumference
+ *Enter your choice >>
+ *S
+ *Loading............
+ *The radius is 3.000000
+ *Your choice S
+ *Your choice isn't available in menu.
+ * */
+
+//                                                 _invalid radius_
+/*Please enter circle radius >>
+ *-3
+ *The radius enter : -3.000000
+ *Sorry this radius is negative number please try again.
+ * */

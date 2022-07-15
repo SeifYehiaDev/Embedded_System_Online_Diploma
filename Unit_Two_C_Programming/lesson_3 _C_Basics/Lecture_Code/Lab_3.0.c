@@ -21,6 +21,7 @@ void main() {
     scanf("%d%d", &firstNumber, &lasNumber);
     minNumber = (firstNumber < lasNumber) ? firstNumber : lasNumber;
     printf("The minimum value is %d\n", minNumber);
+}
     //                                                 _Output_
     /*
      *Please enter the three values >>
@@ -28,4 +29,4 @@ void main() {
      *30
      *The minimum value is 30
      * */
-}
+

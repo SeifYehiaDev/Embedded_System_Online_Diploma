@@ -26,12 +26,13 @@ void main() {
     else
         maxNumber = thirdNumber;
     printf("The largest value is %d\n", maxNumber);
-    //                                                 _Output_
-    /*
-     *Please enter the three values >>
-     *1
-     *2
-     *3
-     *The largest value is 3
-     * */
 }
+//                                                 _Output_
+/*
+ *Please enter the three values >>
+ *1
+ *2
+ *3
+ *The largest value is 3
+ * */
+
