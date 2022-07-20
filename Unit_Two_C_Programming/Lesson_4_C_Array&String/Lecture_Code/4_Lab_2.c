@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 /*                             This code in unit.2 Lesson.4 C Array & String at page 12
- * lab : Calculate polynomial value for a set of inputs
+ * lab 2 : Calculate polynomial value for a set of inputs
  * */
 //                                                 Solution
 void main() {
