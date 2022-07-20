@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-/*                                      One dimension Array
+/*                                      initialization of array
  * initialization of array
  * this code explain how initialize value of array
  * */
