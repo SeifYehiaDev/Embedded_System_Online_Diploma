@@ -18,7 +18,7 @@ void main() {
     printf("message = %s\n", messageOne);
     char messageTwo[5] = {'H', 'e', 'l', 'l', 'o'}; // if size <= 5 -------> Print corrupted data
     printf("message = %s\n", messageTwo);
-    char messageTw0[5] = {'H', 'e', 'l', 'l', 'o',0}; // if size <= 5 -------> Print corrupted data
+    char messageTw0[5] = {'H', 'e', 'l', 'l', 'o',0}; 
     printf("message = %s\n", messageTw0);
     printf("________________________ Print normal data ________________________\n");
     char messageThree[] = {'H', 'e', 'l', 'l', 'o',0};
