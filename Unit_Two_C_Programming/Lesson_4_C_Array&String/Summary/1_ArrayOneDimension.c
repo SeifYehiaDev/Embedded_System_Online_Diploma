@@ -19,8 +19,7 @@ void main() {
     printf("Size of array is %d.\n", SIZE_OF_INT_ARRAY);
     intArray[0] = 1;
     intArray[1] = 2;
-    printf("intArray[0] = %d , intArray[1] = %d.\nsize of int array = 4 byte * 2 (size) = %d byte.\n",
-           intArray[0],intArray[1], sizeof(intArray));
+    printf("intArray[0] = %d , intArray[1] = %d.\nsize of int array = 4 byte * %d (size) = %d byte.\n",intArray[0], intArray[1], SIZE_OF_INT_ARRAY, sizeof(intArray));
     printf("\n_________________ Double Array _________________\n");
     int SIZE_OF_Double_ARRAY = 3; // should be integer number.
     double doubleArray[SIZE_OF_Double_ARRAY]; // double doubleArray[3]; == double doubleArray[2+1];
@@ -28,8 +27,7 @@ void main() {
     doubleArray[0] = 1.0;
     doubleArray[1] = 2.0;
     doubleArray[2] = 3.0;
-    printf("floatArray[0] = %f , floatArray[1] = %f , floatArray[2] = %f.\nsize of double array = 8 byte * 3 (size) = %d byte.\n",
-           doubleArray[0],doubleArray[1], doubleArray[2], sizeof(doubleArray));
+    printf("floatArray[0] = %f , floatArray[1] = %f , floatArray[2] = %f.\nsize of double array = 8 byte * %d (size) = %d byte.\n",doubleArray[0], doubleArray[1], doubleArray[2], SIZE_OF_Double_ARRAY, sizeof(doubleArray));
 }
 /*                                                 _Output_
  * _________________ Integer Array _________________
