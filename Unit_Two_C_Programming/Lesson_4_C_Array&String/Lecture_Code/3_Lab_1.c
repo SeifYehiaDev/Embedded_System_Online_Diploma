@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 /*                             This code in unit.2 Lesson.4 C Array & String at page 7
- * lab : Store and print 10 students degrees
+ * lab 1 : Store and print 10 students degrees
  * shows how to scan 10 students degree from user , stores them in a single area and then prints them.
  * */
 //                                                 Solution
