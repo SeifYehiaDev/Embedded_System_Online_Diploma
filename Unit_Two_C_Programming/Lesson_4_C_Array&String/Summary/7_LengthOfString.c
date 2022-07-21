@@ -11,16 +11,16 @@
 
 
 /*                                      String
- * How to get length using loop
+ * How to get length of string using loop
  * */
 void main() {
     char name[] = "Seif Yehia";
     const int LENGTH_OF_STRING = strlen(name);
-    int index, length = 0;
+    int index, lengthOfString = 0;
     printf("Length of string calculate by strlen() = %d\n", LENGTH_OF_STRING);
     for (index = 0; name[index] != 0; index++)
-        length += 1;
-    printf("Length of string calculate by loop = %d\n", length);
+        lengthOfString += 1;
+    printf("Length of string calculate by loop = %d\n", lengthOfString);
 
 
 }
