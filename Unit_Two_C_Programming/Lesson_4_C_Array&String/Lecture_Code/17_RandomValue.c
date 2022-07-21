@@ -10,7 +10,7 @@
 
 /*                             This code in unit.2 Lesson.4 C Array & String at page 38
  * RandomValue
- * this code explain how set value or array random
+ * this code explain how set value on array random
  * */
 void main() {
     int array[1000], index;
