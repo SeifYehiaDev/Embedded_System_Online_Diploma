@@ -17,5 +17,3 @@ void main() {
     for (index = 0; index <= 999; index++)
         array[index] = rand();
 }
-
-
