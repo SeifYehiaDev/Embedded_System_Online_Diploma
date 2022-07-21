@@ -1,5 +1,5 @@
 /*
- * 6_ConvertStringWithoutStrlwrAndStrupr.c
+ * 6_ConvertString.c
  *
  * Created on : 21/7/2022
  * Author : Seif Yehia Esmail Abdel Aal
