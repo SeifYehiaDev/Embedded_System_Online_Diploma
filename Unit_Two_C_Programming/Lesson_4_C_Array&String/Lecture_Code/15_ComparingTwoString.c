@@ -43,6 +43,6 @@ void main() {
 
 /*                                                 _Output 2_
  * Enter your name >>
- * SeIf YeHIA
+ * Mazen Ali
  * We are sorry , your name is not listed
  * */
