@@ -14,7 +14,7 @@
 //                                                 Solution
 void main() {
     const int SIZE_OF_ROW = 3, SIZE_OF_COLUMN = 3, LENGTH_OF_ROW = SIZE_OF_ROW - 1, LENGTH_OF_COLUMN =SIZE_OF_COLUMN - 1;
-    float matrix[SIZE_OF_ROW][SIZE_OF_COLUMN], transposeMatrix[SIZE_OF_ROW][SIZE_OF_COLUMN];
+    float matrix[SIZE_OF_ROW][SIZE_OF_COLUMN], transposeMatrix[SIZE_OF_COLUMN][SIZE_OF_ROW];
     int row, column;
     for (row = 0; row <= LENGTH_OF_ROW; row++)
         for (column = 0; column <= LENGTH_OF_COLUMN; column++) {
@@ -28,12 +28,12 @@ void main() {
             printf("%.2f\t", matrix[row][column]);
         printf("\n");
     }
-    for (row = 0; row <= LENGTH_OF_ROW; row++)
-        for (column = 0; column <= LENGTH_OF_COLUMN; column++)
+    for (row = 0; row <= LENGTH_OF_COLUMN; row++)
+        for (column = 0; column <= LENGTH_OF_ROW; column++)
             transposeMatrix[row][column] = matrix[column][row];
     printf("\nThe transpose matrix is : \n");
-    for (row = 0; row <= LENGTH_OF_ROW; row++) {
-        for (column = 0; column <= LENGTH_OF_COLUMN; column++)
+    for (row = 0; row <= LENGTH_OF_COLUMN; row++) {
+        for (column = 0; column <= LENGTH_OF_ROW; column++)
             printf("%.2f\t", transposeMatrix[row][column]);
         printf("\n");
     }
