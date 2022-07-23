@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <string.h>
-/*                                      EX8: C program to find the length of a string
+/*                                      EX8: C program to Reverse String without using Library function
    *
    * */
 //                                                 _Solution_
