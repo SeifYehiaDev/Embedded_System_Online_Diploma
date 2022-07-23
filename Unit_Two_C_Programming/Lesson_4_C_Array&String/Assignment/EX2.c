@@ -7,22 +7,22 @@
  * */
 
 #include <stdio.h>
-#include <limits.h>
 /*                                      EX2: C program to calculate Average using arrays
    * This program takes n number of element from user (where , n is specified by user) , stored data in array and calculate
    * the average of those number
    * */
 //                                                 _Solution_
 void main() {
-    float floatArray[100], sum = 0.0, average;
-    int index, sizeOfArray = INT_MIN;
+    int index, sizeOfArray ;
+    float sum = 0.0, average;
     printf("Enter the number of data : \n");
     scanf("%d", &sizeOfArray);
     while (sizeOfArray <= 0) {
-        printf("Error! number should in range (1 to 100).\n");
+        printf("Error! number should > 0 .\n");
         printf("Enter the number again: \n");
         scanf("%d", &sizeOfArray);
     }
+    float floatArray[sizeOfArray];
     for (index = 0; index <= sizeOfArray - 1; index++) {
         printf("%d. Enter the number: \n", index + 1);
         scanf("%f", &floatArray[index]);
